@@ -111,7 +111,6 @@ hr{
 #banner{
     height: 50vw;
     max-height: 50vh;
-    margin: 0.5em auto;
     overflow: hidden;
 }
 
@@ -141,9 +140,6 @@ hr{
     width: 100%;
 }
 
-#contents{
-    margin: 0.5em auto;
-}
 #contents .cont{
     width: 100%;
 }
@@ -157,6 +153,7 @@ hr{
     align-items: center;
 }
 #contents .cont .cont_bar p{
+  margin-left: 0.5em;
   font-family: "NanumSquareRound";
   font-size: 2em;
   font-weight: bold;
@@ -164,5 +161,6 @@ hr{
 }
 #contents .cont img{
     margin-left: auto;
-    width: 4em
+    margin-right: 0.5sem;
+    width: 4em;
 }
