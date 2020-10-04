@@ -86,6 +86,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #fff;
 }
 
 #header .menu{
@@ -102,9 +103,9 @@ hr{
 
 #header .logo{
     position: absolute;
-    font-size: 3em;
-    font-weight: bold;
-    color: var(--main-color);
+}
+#header .logo img{
+    height: 5em
 }
 
 #banner{
